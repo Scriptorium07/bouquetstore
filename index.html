@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Beauty of Flowers 🌸</title>
+    <link href="flowers.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div class="core">
+      <main>
+        <div class="marquee-container">
+          <div class="marquee-text">
+            <em>Welcome to fafa's project!</em>
+          </div>
+        </div>
+        <h1 class="titlee"><strong> Beauty of Flowers 🌸</strong></h1>
+        <p class="description">
+            <strong>Flowers are nature's art, each petal a brushstroke of color and life.
+            From the delicate petals of a rose to the vibrant hues of a sunflower,
+            flowers bring joy and beauty to our world. They symbolize love, hope,
+            and renewal, making them cherished gifts for every occasion.</strong>
+        </p>
+
+        <p class="call-to-action">
+            <strong>Join us in celebrating the beauty of flowers. Whether you're looking
+            for a bouquet to brighten your day or a floral arrangement for a special
+            event, we have something for everyone.</strong>
+        </p>
+        <div class="marquee-container">
+          <div class="marquee-text">
+            <em>Bloom with me — find your perfect bouquet</em>
+          </div>
+        </div>
+        
+        <div class="image-grid">
+          <div class="image-item" onclick="openModal('modal1')">
+            <img src="blue.png" alt="Image 1">
+            <p class="title">Blueberry dream</p>
+          </div>
+
+          <div class="image-item" onclick="openModal('modal2')">
+            <img src="reddd.png" alt="Image 2">
+            <p class="title">Red Paradise</p>
+          </div>
+
+          <div class="image-item" onclick="openModal('modal3')">
+            <img src="pink.png" alt="Image 3">
+            <p class="title">Candy Bouquet</p>
+          </div>
+
+          <div class="image-item" onclick="openModal('modal4')">
+            <img src="pinkblue.png" alt="Image 4">
+            <p class="title">Midnight Elegance</p>
+          </div>
+
+          <div class="image-item" onclick="openModal('modal5')">
+            <img src="chocolat.png" alt="Image 5">
+            <p class="title">Dreams in Lilac and White</p>
+          </div>
+
+          <div class="image-item" onclick="openModal('modal6')">
+            <img src="purpleblackwhite.png" alt="Image 6">
+            <p class="title">Whispers in Purple</p>
+          </div>
+
+          <div class="image-item" onclick="openModal('modal7')">
+            <img src="rafaello.png" alt="Image 7"><p class="title">Sweet Elegance</p>
+          </div>
+
+          <!--<div class="image-item" style="grid-column: 3;">
+            <img src="bouquet8.jpg"><p>Bouquet 8</p>
+          </div>
+        </div>-->
+
+        <!-- Modal -->
+        <div id="modal1" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal1')">&times;</span>
+          <div class="modal-body">
+            <video controls width="300" controls autoplay muted loop>
+              <source src="vd1.mp4" type="video/mp4">
+            </video>
+            <p><strong><em> beautiful bouquet of light and dark blue roses, wrapped in decorative paper and tied with a satin ribbon.</strong></em></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal2" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal2')">&times;</span>
+          <div class="modal-body">
+            <video controls width="300" controls autoplay muted loop>
+              <source src="vdd2.mp4" type="video/mp4">
+            </video>
+            <p><strong><em> A stunning arrangement of red and white flowers, perfect for any occasion.</p></em></strong>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal3" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal3')">&times;</span>
+          <div class="modal-body">
+            <video controls width="300" controls autoplay muted loop>
+              <source src="vdd3.mp4" type="video/mp4">
+            </video>
+            <p><strong><em>A charming bouquet of pink and white flowers, bringing freshness, elegance, and joy to any space.</p></em></strong>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal4" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal4')">&times;</span>
+          <div class="modal-body">
+            <video controls width="300" controls autoplay muted>
+              <source src="vdd4.mp4" type="video/mp4">
+            </video>
+            <p><strong><em> A graceful bouquet wrapped in soft pink with black accents, featuring a striking deep blue rose at its heart. Finished with a luxurious satin bow.</p></em></strong>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal5" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal5')">&times;</span>
+          <div class="modal-body">
+            <video controls width="400" controls autoplay muted loop>
+              <source src="vdd5.mp4" type="video/mp4">
+            </video>
+            <p><strong><em> A tender bouquet of lilac and ivory roses, woven like the first light of morning—soft, pure, and eternal in their quiet grace.</p></em></strong>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal6" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal6')">&times;</span>
+          <div class="modal-body">
+            <video controls width="400" controls autoplay muted loop>
+              <source src="vdd6.mp4" type="video/mp4">
+            </video>
+            <p><strong><em> A small, elegant bouquet featuring six light purple roses with pearl centers surrounding a single white rose in the middle, all wrapped in brown and translucent paper.</p></em></strong>
+            </div>
+          </div>
+        </div>
+        
+        <div id="modal7" class="modal hidden">
+          <div class="modal-content">
+          <span class="close" onclick="closeModal('modal7')">&times;</span>
+          <div class="modal-body">
+            <video controls width="300" controls autoplay muted loop>
+              <source src="vdd7.mp4" type="video/mp4">
+            </video>
+            <p><strong><em> A delicate bouquet blending soft cream roses with the sweetness of Raffaello chocolates, wrapped in pastel pink for a perfect touch of charm and indulgence.</p></em></strong>
+            </div>
+          </div>
+        </div>
+        
+        <script src="script.js"></script>
+      </main>
+      <footer class="footer">
+        <p><strong>Whether a bouquet has inspired you, or you would like to offer a suggestion, I'm always here to listen.</p></strong>
+      </footer>
+    </div>
+  </body>
+</html>

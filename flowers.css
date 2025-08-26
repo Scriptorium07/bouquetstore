@@ -1,0 +1,168 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #E6E6FA;
+}
+
+.core {
+    background-image: url(https://marketplace.canva.com/EAGmgBFDb1g/1/0/1131w/canva-purple-and-white-floral-watercolor-background-poster-_d-B4eEJFiw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    width: 1050px;
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;   
+}
+
+.titlee {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+
+.description {
+  font-size: medium;
+  margin-bottom: 40px;
+}
+
+.call-to-action {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.marquee-container {
+  width: 100%;          /* full width or adjust as needed */
+  overflow: hidden;     /* hide overflowing text */
+  background-color: transparent; /* optional background */
+  border: none;    /* optional border */
+  margin-top: 10px; /* space above marquee */
+  margin-bottom: 10px;
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;    /* prevent text from wrapping */
+  padding-left: 100%;     /* start from right */
+  animation: scrollOnce 5s linear forwards; /* scroll animation */
+  font-size: 20px;       /* adjust font size */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* font style */
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes scrollOnce {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; 
+  max-width: 600px;
+  margin: auto;
+}
+
+.image-item {
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-item img {
+  width: 90%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin: 0 auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-item img:hover {
+  transform: scale(1.1); 
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styles pour téléphone */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .container {
+    flex-direction: column; /* Les divs passent l’une sous l’autre */
+  }
+}
+/* Tout le reste devient flou avec un overlay sombre */
+.modal {
+  display: flex; /* caché par défaut */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px); /* flou de l'arrière-plan */
+  background-color: rgba(0,0,0,0.6); /* sombre semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Contenu centré */
+.modal-content {
+  background-image: url(https://marketplace.canva.com/EAGmgBFDb1g/1/0/1131w/canva-purple-and-white-floral-watercolor-background-poster-_d-B4eEJFiw.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Bouton fermer */
+.close {
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Vidéo + description alignés */
+.modal-body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.modal-body video {
+  border: 3px ; /* couleur et épaisseur de la bordure */
+  border-radius: 15px;       /* coins arrondis */
+  max-width: 45%;
+}
+.hidden { display: none !important; }
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+}
