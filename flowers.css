@@ -11,7 +11,8 @@ body {
     border: 2px solid black;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
-    width: 1050px;
+    max-width: 1050px;
+    width: 100%;
     margin: 20px auto;
     padding: 15px;
     box-sizing: border-box;
@@ -172,6 +173,7 @@ body {
     flex-direction: column; /* Les divs passent l’une sous l’autre */
   }
 }
+
 
 
 
