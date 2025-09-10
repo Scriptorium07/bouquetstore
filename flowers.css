@@ -53,7 +53,7 @@ body {
   white-space: nowrap;    /* prevent text from wrapping */
   padding-left: 100%;     /* start from right */
   animation: scrollOnce 5s linear forwards; /* scroll animation */
-  font-size: 20px;       /* adjust font size */
+  font-size: 16px;       /* adjust font size */
   font-family: Georgia, 'Times New Roman', Times, serif; /* font style */
 }
 
@@ -185,6 +185,7 @@ body {
     display: none; /* Cache le paragraphe sur mobile */
   }
 }
+
 
 
 
