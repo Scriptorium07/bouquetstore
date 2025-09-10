@@ -167,11 +167,11 @@ body {
   body {
     font-size: 16px;
     padding: 10px;
-    background: green;
   }
   .container {
     flex-direction: column; /* Les divs passent l’une sous l’autre */
   }
 }
+
 
 
