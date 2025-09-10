@@ -168,15 +168,7 @@ body {
   body {
     font-size: 16px;
     padding: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .image-grid {
-    grid-template-columns: 1fr; /* Une seule image par ligne */
-    gap: 15px;
-  }
-
-  .modal-body {
+    .modal-body {
     flex-direction: column; /* Vidéo au-dessus du texte */
     text-align: center;
   }
