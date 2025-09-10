@@ -98,16 +98,6 @@ body {
   color: #333;
 }
 
-/* Styles pour téléphone */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
-  .container {
-    flex-direction: column; /* Les divs passent l’une sous l’autre */
-  }
-}
 /* Tout le reste devient flou avec un overlay sombre */
 .modal {
   display: flex; /* caché par défaut */
@@ -172,4 +162,14 @@ body {
   margin-top: 30px;
 }
 
+/* Styles pour téléphone */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .container {
+    flex-direction: column; /* Les divs passent l’une sous l’autre */
+  }
+}
 
