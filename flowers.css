@@ -180,7 +180,12 @@ body {
   .titlee {
     font-size: 28px;
   }
+
+  .description {
+    display: none; /* Cache le paragraphe sur mobile */
+  }
 }
+
 
 
 
